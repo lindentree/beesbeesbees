@@ -3,7 +3,7 @@ describe('Grub class functionality', function() {
   verifyClass(Grub).followsPattern('pseudoclassical', {}, false);
 
   beforeEach(function() {
-    grub = new Grub();
+    grub = new Grub(0, "pink", "jelly");
   });
 
   it('should have an `age` property that is set to `0`', function() {

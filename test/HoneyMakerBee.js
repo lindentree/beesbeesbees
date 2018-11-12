@@ -3,7 +3,7 @@ describe('HoneyMakerBee class functionality', function() {
   verifyClass(HoneyMakerBee).followsPattern('pseudoclassical', {}, false);
 
   beforeEach(function() {
-    honeyBee = new HoneyMakerBee();
+    honeyBee = new HoneyMakerBee(10, "yellow", "jelly");
   });
 
   /*  Overwrite methods from superclass  */
